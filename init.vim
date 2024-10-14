@@ -437,7 +437,11 @@ cnoremap <expr> <right> wildmenumode() ? "\<down>"  : "\<right>"
 
 " Set a good default colorscheme.
 set background=dark
-colorscheme PaperColor
+try
+	colorscheme PaperColor
+catch
+	colorscheme default
+endtry
 
 " Show syntax highlighting groups for word under cursor
 nnoremap gS :call <SID>get_syntax_groups()<CR>
