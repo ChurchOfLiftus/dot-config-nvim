@@ -1,11 +1,10 @@
-"---------------------------
-"--- NeoVim Startup File ---
-"---------------------------
+" NeoVim Configuration
+" by Wesley J. Landaker
 "
-" Version: 1.3.0
-" Date: 2023-05-11
-" Author: Wesley J. Landaker <wjl@icecavern.net>
-" License: Public domain
+" Version 2.0.0
+"
+" This work is marked with CC0 1.0. To view a copy of this license, visit
+" https://creativecommons.org/publicdomain/zero/1.0/
 
 "---------------
 "--- Plugins {{{
