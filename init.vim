@@ -1,7 +1,7 @@
 " NeoVim Configuration
 " by Wesley J. Landaker
 "
-" Version 2.0.0
+" Version 2.0.1
 "
 " This work is marked with CC0 1.0. To view a copy of this license, visit
 " https://creativecommons.org/publicdomain/zero/1.0/
@@ -214,13 +214,6 @@ set listchars+=lead:·,trail:·,nbsp:⎵
 " Enable cursor line highlighting, but only the line number.
 set cursorline
 set cursorlineopt=number
-
-"}}}-------------
-"--- Terminal {{{
-"----------------
-
-" Enable RGB colors in the terminal.
-set termguicolors
 
 " Set the window title.
 set title
