@@ -1,7 +1,7 @@
 " NeoVim Configuration
 " by Wesley J. Landaker
 "
-" Version 2.0.1
+" Version 2.0.2
 "
 " This work is marked with CC0 1.0. To view a copy of this license, visit
 " https://creativecommons.org/publicdomain/zero/1.0/
@@ -79,9 +79,6 @@ augroup vimrc_autochdir
 	autocmd!
 	autocmd BufEnter * silent! lcd %:p:h
 augroup end
-
-" Browse based on the current directory.
-set browsedir=current
 
 " Never ignore filename case.
 set nofileignorecase
