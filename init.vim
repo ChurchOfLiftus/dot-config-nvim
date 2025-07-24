@@ -48,6 +48,9 @@ Plug 'Jorengarenar/vim-syntaxMarkerFold'
 " Transparent editing of gpg-encrypted files.
 Plug 'jamessan/vim-gnupg'
 
+" Tmux and neovim plugin. Allows seamless intergration with neovim.
+Plug 'christoomey/vim-tmux-navigator'
+
 call plug#end()
 
 "}}}----------------
