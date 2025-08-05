@@ -15,11 +15,8 @@
 " Activate vim-plug plugins.
 call plug#begin()
 
-" Very good default light and dark color schemes.
-Plug 'NLKNguyen/papercolor-theme'
-
-" Huge selection of alternate color schemes.
-Plug 'flazz/vim-colorschemes'
+" Using the dark mocha theme across tmux and fish.
+Plug 'catppuccin/nvim'
 
 " Lightweight statusline configurator.
 Plug 'itchyny/lightline.vim'
@@ -427,11 +424,11 @@ cnoremap <expr> <right> wildmenumode() ? "\<down>"  : "\<right>"
 "}}}------------
 "--- Colorscheme {{{
 "-------------------
-
-" Set a good default colorscheme.
+"Set catpuccin theme as mocha.
+"If you do not PlugInstall we need a default colorscheme.
 set background=dark
 try
-	colorscheme PaperColor
+	colorscheme catppuccin-mocha
 catch
 	colorscheme default
 endtry
